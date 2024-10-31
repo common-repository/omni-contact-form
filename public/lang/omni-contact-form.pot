@@ -1,0 +1,202 @@
+# Copyright (C) 2021 Demetris Kikizas
+# This file is distributed under the same license as the Omni Contact Form plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Omni Contact Form 0.4.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/omni-contact-form\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-04-09T12:23:25+03:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: omni-contact-form\n"
+
+#. Plugin Name of the plugin
+msgid "Omni Contact Form"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://github.com/demetris/omni-contact-form"
+msgstr ""
+
+#. Description of the plugin
+msgid "A simple contact form with simple shortcode settings"
+msgstr ""
+
+#. Author of the plugin
+msgid "Demetris Kikizas"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://kikizas.com/"
+msgstr ""
+
+#: src/Form.php:26
+msgid "Send a message to get in touch!"
+msgstr ""
+
+#: src/Form.php:28
+msgid "Email address"
+msgstr ""
+
+#: src/Form.php:29
+msgid "Message"
+msgstr ""
+
+#: src/Form.php:30
+msgid "Name"
+msgstr ""
+
+#: src/Form.php:31
+msgid "Sending..."
+msgstr ""
+
+#: src/Form.php:32
+msgid "Subject"
+msgstr ""
+
+#: src/Form.php:33
+msgid "Send"
+msgstr ""
+
+#: src/Form.php:35
+msgid "The answer is missing!"
+msgstr ""
+
+#: src/Form.php:36
+msgid "The answer is wrong!"
+msgstr ""
+
+#: src/Form.php:37
+msgid "The email address is missing!"
+msgstr ""
+
+#: src/Form.php:38
+msgid "The email address is not valid!"
+msgstr ""
+
+#: src/Form.php:39
+msgid "The message is missing!"
+msgstr ""
+
+#: src/Form.php:40
+msgid "The name is missing!"
+msgstr ""
+
+#: src/Form.php:41
+msgid "The subject is missing!"
+msgstr ""
+
+#: src/Form.php:42
+msgid "The message must have at least %d characters!"
+msgstr ""
+
+#: src/Form.php:43
+msgid "The name must have at least %d characters!"
+msgstr ""
+
+#: src/Form.php:44
+msgid "The subject must have at least %d characters!"
+msgstr ""
+
+#: src/Form.php:46
+msgid "Mail error: Could not send the message."
+msgstr ""
+
+#: src/Form.php:47
+msgid "Network error: Could not connect to the server."
+msgstr ""
+
+#: src/Form.php:48
+msgid "Something went wrong! Please refresh the page and try again!"
+msgstr ""
+
+#: src/Form.php:49
+msgid "To use this form, please visit the page with a newer browser."
+msgstr ""
+
+#: src/Form.php:51
+msgid "Thank you for your message!"
+msgstr ""
+
+#: src/Form.php:306
+msgid "What is %d × %d?"
+msgstr ""
+
+#. translators: Value for referrer when the form page is accessed directly, that is, without a referrer.
+#: src/Mail.php:40
+msgid "NONE"
+msgstr ""
+
+#: src/Mail.php:46
+msgid "Post ID %s given for REDIRECT field in shortcode does not exist. No redirect performed."
+msgstr ""
+
+#: src/Mail.php:52
+msgid "User ID %s given for TO field in shortcode does not exist. Default used."
+msgstr ""
+
+#: src/Mail.php:62
+msgid "User ID %s given for CC field in shortcode does not exist. Carbon copy not sent."
+msgstr ""
+
+#: src/Mail.php:107
+msgid "Message to %s from %s"
+msgstr ""
+
+#. translators: Heading for warnings added to the email message if two or more of TO, CC, REDIRECT shortcode fields have issues.
+#: src/Mail.php:117
+msgid "WARNINGS"
+msgstr ""
+
+#. translators: Heading for warning added to the email message if one of TO, CC, REDIRECT shortcode fields has an issue.
+#: src/Mail.php:120
+msgid "WARNING"
+msgstr ""
+
+#: src/Mail.php:148
+msgid "SENDER"
+msgstr ""
+
+#: src/Mail.php:152
+msgid "Name: %s"
+msgstr ""
+
+#: src/Mail.php:155
+msgid "Email address: %s"
+msgstr ""
+
+#: src/Mail.php:159
+msgid "SUBJECT"
+msgstr ""
+
+#: src/Mail.php:166
+msgid "MESSAGE"
+msgstr ""
+
+#: src/Mail.php:172
+msgid "FORM INFO"
+msgstr ""
+
+#: src/Mail.php:175
+msgid "Form URL: %s"
+msgstr ""
+
+#: src/Mail.php:177
+msgid "Referrer URL: %s"
+msgstr ""
+
+#: src/Mail.php:179
+msgid "Time: %1$s %2$s (%3$s)"
+msgstr ""
+
+#: src/Mail.php:196
+msgid "Email sent from %s via the Omni Contact Form"
+msgstr ""
+
+#: src/Mail.php:266
+msgid "Copy of your message to %s"
+msgstr ""
